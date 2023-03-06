@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+  int n;
+  long S = 0;
+  printf("\nNh?p vào s? n: ");
+  scanf("%d", &n);
+  for(int i = 1; i <= n; i++)
+  {
+    S = S + i * i;
+  }
+  printf("\nT?ng 1^2 + 2^2 + ... + %d^2 là: %ld", n, S);
+ 
+  printf("\n-------------------------------------\n");
+  printf("Chuong trình này du?c dang t?i Freetuts.net");
+}
